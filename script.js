@@ -71,7 +71,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         from_name: name,
         from_email: email,
         message: message,
-        reply_to: 'rafiqovjavohir48@gmail.com' // Sizning email manzilingiz
+        reply_to: email // Foydalanuvchining email manzilini qo'shish
     }, userID)
     .then(() => {
         alert('Xabar muvaffaqiyatli yuborildi!');
